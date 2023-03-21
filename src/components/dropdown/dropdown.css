@@ -1,0 +1,16 @@
+.dropdown{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.dropdown select{
+    width: 100%;
+    outline: transparent;    
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding:5px 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+}

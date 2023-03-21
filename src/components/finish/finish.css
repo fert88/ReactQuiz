@@ -1,0 +1,46 @@
+.finish{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(green,white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.finish-container{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    gap: 20px;
+}
+.finish-score{
+    font-size: 3rem;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    min-width: fit-content;
+}
+.finish-btn{
+    width: 50%;
+    min-width: fit-content;
+    font-size: 1rem;
+}
+.finish-btn>button{
+    width: 100%;
+    min-width: fit-content;
+    background: blueviolet;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+.finish-btn>button:hover{
+    transition: 0.5s;
+    opacity: 0.5;
+}
